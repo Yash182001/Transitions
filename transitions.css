@@ -1,0 +1,26 @@
+.btn{
+    margin-top: 100px;
+    margin-left: 200px;
+
+    transition-property: transform;
+
+}
+
+.btn:hover{
+    transform: translateY(-20px)
+}
+
+.truck{
+    position: fixed;
+    bottom: 0px;
+    animation: left-to-right 5s infinite;
+}
+
+@keyframes left-to-right{
+    0%{
+        left: -110px;
+    }
+    100%{
+        left:110%
+    }
+}
